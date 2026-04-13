@@ -1,0 +1,3 @@
+# Static export: prefer index.html for directory URLs; avoid directory listings if index is missing.
+DirectoryIndex index.html
+Options -Indexes

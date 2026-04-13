@@ -104,6 +104,101 @@
       "title": "Réseau d'Installateurs Agréés",
       "description": "Accédez à notre réseau national de techniciens certifiés. Formation continue et certification qualité. Couverture de tout le territoire marocain."
     },
+    "pillarsIntro": {
+      "title": "Notre accompagnement en trois temps",
+      "subtitle": "Chaque projet suit un processus structuré. Ouvrez une fiche pour en savoir plus sur l'étude, l'installation ou le suivi."
+    },
+    "pillarReadMore": "Lire la fiche",
+    "pillars": {
+      "etude": {
+        "metaTitle": "Étude et dimensionnement solaire",
+        "metaDescription": "Audit énergétique, analyse de consommation, dimensionnement photovoltaïque et devis détaillé. Méthode Tawfir Energy au Maroc.",
+        "short": "De l'audit de vos besoins au dimensionnement précis de votre installation.",
+        "title": "Étude & dimensionnement",
+        "intro": "Avant tout investissement, nous établissons une vision claire de votre profil de consommation et du potentiel solaire de votre site. L'objectif : dimensionner une installation qui maximise vos économies tout en restant adaptée à votre budget et à vos contraintes techniques.",
+        "sections": [
+          {
+            "title": "Collecte des données et audit sur site",
+            "body": "Nous analysons vos factures d'électricité, les horaires d'utilisation de vos équipements et la configuration de votre toiture ou de votre terrain. Une visite permet de vérifier l'orientation, l'inclinaison, l'ombrage éventuel et la structure porteuse pour valider la faisabilité du projet."
+          },
+          {
+            "title": "Simulation et scénarios techniques",
+            "body": "À partir de données météo locales et de votre courbe de charge, nous modélisons la production attendue et le taux d'autoconsommation. Plusieurs scénarios (puissance, stockage éventuel, structure) sont comparés pour trouver le meilleur compromis performance / investissement."
+          },
+          {
+            "title": "Livrables et planification",
+            "body": "Vous recevez un rapport d'étude clair, un plan de principe, une estimation des économies annuelles et un échéancier de retour sur investissement. Le devis détaille le matériel retenu, les garanties et les étapes de mise en œuvre."
+          }
+        ],
+        "listTitle": "Ce que comprend notre étude",
+        "list": [
+          "Analyse de l'historique de consommation et projection sur 25 ans",
+          "Dimensionnement des panneaux, onduleurs et protections",
+          "Vérification de conformité avec le raccordement ONE et votre installation électrique",
+          "Prévision d'économies et d'amortissement du projet",
+          "Proposition matériel avec fiches techniques et garanties fabricant"
+        ],
+        "cta": "Demander une étude gratuite"
+      },
+      "installation": {
+        "metaTitle": "Installation photovoltaïque professionnelle",
+        "metaDescription": "Travaux certifiés, matériel premium, mise aux normes et réception de votre centrale solaire au Maroc.",
+        "short": "Équipes certifiées, matériel traçable et contrôles qualité à chaque étape des travaux.",
+        "title": "Installation professionnelle",
+        "intro": "La qualité d'une centrale solaire dépend autant du dimensionnement que de la rigueur du chantier. Nos équipes appliquent des protocoles stricts pour garantir la sécurité, la durabilité et les performances sur le long terme.",
+        "sections": [
+          {
+            "title": "Préparation et logistique",
+            "body": "Les équipements sont réceptionnés et contrôlés : références fabricant, garanties, conformité aux spécifications validées en étude. Nous planifions les accès chantier, les levages et la coordination avec vos équipes pour limiter l'impact sur votre activité."
+          },
+          {
+            "title": "Mise en œuvre et câblage",
+            "body": "Fixations, passage de câbles, mise à la terre et raccordements sont réalisés selon les règles de l'art et la réglementation marocaine en vigueur. Chaque chaine est testée avant raccordement au réseau ou à votre tableau électrique."
+          },
+          {
+            "title": "Mise en service et réception",
+            "body": "Après vérifications et essais, nous procédons à la mise en service, la formation des utilisateurs et la remise des documents : certificats, schémas, notices et dossier pour l'exploitant. Une réception formalisée valide la conformité du chantier."
+          }
+        ],
+        "listTitle": "Nos engagements chantier",
+        "list": [
+          "Techniciens formés et équipements de protection individuelle",
+          "Traçabilité des modules et onduleurs (séries, garanties)",
+          "Respect des normes électriques et des prescriptions du distributeur",
+          "Nettoyage du site et formation à la lecture des indicateurs de production"
+        ],
+        "cta": "Parler de mon projet"
+      },
+      "maintenance": {
+        "metaTitle": "Suivi, maintenance et monitoring solaire",
+        "metaDescription": "Contrats de maintenance, interventions préventives et correctives, suivi à distance de vos installations photovoltaïques.",
+        "short": "Prévention des pannes, optimisation des rendements et assistance réactive.",
+        "title": "Suivi & maintenance",
+        "intro": "Une installation solaire performante sur 20 à 25 ans suppose un entretien régulier et une veille sur les équipements. Nous proposons des formules adaptées aux professionnels et aux particuliers, avec possibilité de supervision à distance.",
+        "sections": [
+          {
+            "title": "Maintenance préventive",
+            "body": "Les visites planifiées permettent de nettoyer les modules si nécessaire, de contrôler les connexions, l'étanchéité et les paramètres de l'onduleur. Nous identifions les dérives avant qu'elles n'impactent fortement votre production."
+          },
+          {
+            "title": "Dépannage et SAV",
+            "body": "En cas d'alerte ou de panne, notre équipe organise un diagnostic et une intervention dans les délais prévus par votre contrat. Nous gérons la relation avec les fabricants pour les remplacements sous garantie lorsque c'est applicable."
+          },
+          {
+            "title": "Monitoring et reporting",
+            "body": "Selon votre équipement, la production peut être suivie en temps réel. Nous vous aidons à interpréter les courbes et, le cas échéant, à connecter vos données à notre application mobile pour un pilotage simplifié."
+          }
+        ],
+        "listTitle": "Formules possibles",
+        "list": [
+          "Contrat annuel avec nombre d'interventions défini",
+          "Hotline et priorisation des dossiers clients sous contrat",
+          "Rapports après chaque visite avec recommandations",
+          "Accompagnement pour extension ou ajout de stockage ultérieur"
+        ],
+        "cta": "Demander un contrat de maintenance"
+      }
+    },
     "contactCta": "Prêt à réduire vos coûts énergétiques ? Obtenez votre étude gratuite.",
     "contactButton": "Demander une étude gratuite"
   },

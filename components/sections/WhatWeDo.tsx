@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Container from '../Container';
 import { getTranslations } from '@/lib/translations';
 import type { Locale } from '@/lib/i18n';
@@ -17,6 +18,7 @@ export default function WhatWeDo({ locale }: { locale: string }) {
       iconBg: 'bg-primary-100',
       iconColor: 'text-primary-700',
       number: '01',
+      slug: 'etude' as const,
     },
     {
       title: t.whatWeDo.feature2.title,
@@ -30,6 +32,7 @@ export default function WhatWeDo({ locale }: { locale: string }) {
       iconBg: 'bg-solar-100',
       iconColor: 'text-solar-700',
       number: '02',
+      slug: 'installation' as const,
     },
     {
       title: t.whatWeDo.feature3.title,
@@ -42,6 +45,7 @@ export default function WhatWeDo({ locale }: { locale: string }) {
       iconBg: 'bg-eco-100',
       iconColor: 'text-eco-700',
       number: '03',
+      slug: 'maintenance' as const,
     },
   ];
 
@@ -88,15 +92,17 @@ export default function WhatWeDo({ locale }: { locale: string }) {
                 {feature.description}
               </p>
               
-              {/* Hover indicator */}
-              <div className="mt-6 pt-6 border-t border-neutral-100">
-                <div className="flex items-center gap-2 text-primary-700 font-semibold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <Link
+                href={`/${locale}/services/${feature.slug}/`}
+                className="mt-6 pt-6 border-t border-neutral-100 block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-b-xl -mx-2 px-2"
+              >
+                <span className="flex items-center gap-2 text-primary-700 font-semibold text-sm hover:text-primary-800">
                   <span>{locale === 'ar' ? 'اقرأ المزيد' : 'En savoir plus'}</span>
-                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </div>
-              </div>
+                </span>
+              </Link>
             </div>
           ))}
         </div>

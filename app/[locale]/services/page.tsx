@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { locales } from '@/lib/i18n';
+import { SERVICE_PILLAR_SLUGS } from '@/lib/service-pillars';
 import { getTranslations } from '@/lib/translations';
 import Container from '@/components/Container';
 
@@ -118,6 +119,48 @@ export default function ServicesPage({ params }: { params: { locale: string } })
         </Container>
       </section>
 
+      <section className="py-12 lg:py-16 bg-white border-b border-neutral-100">
+        <Container>
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center max-w-2xl mx-auto mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-3">
+                {t.services.pillarsIntro.title}
+              </h2>
+              <p className="text-neutral-600 leading-relaxed">{t.services.pillarsIntro.subtitle}</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {SERVICE_PILLAR_SLUGS.map((slug) => {
+                const pillar = t.services.pillars[slug];
+                return (
+                  <Link
+                    key={slug}
+                    href={`/${locale}/services/${slug}/`}
+                    className="group rounded-2xl p-6 border border-neutral-100 bg-gradient-to-b from-neutral-50 to-white hover:border-primary-200 hover:shadow-medium transition-all duration-300 flex flex-col text-start"
+                  >
+                    <h3 className="text-lg font-bold text-neutral-900 mb-2 group-hover:text-primary-800 transition-colors">
+                      {pillar.title}
+                    </h3>
+                    <p className="text-neutral-600 text-sm leading-relaxed flex-1 mb-4">{pillar.short}</p>
+                    <span className="inline-flex items-center gap-2 text-primary-700 font-semibold text-sm">
+                      {t.services.pillarReadMore}
+                      <svg
+                        className="w-4 h-4 rtl:rotate-180 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Services Grid */}
       <section className="section-padding bg-gradient-to-b from-neutral-50 to-white">
         <Container>
@@ -174,7 +217,7 @@ export default function ServicesPage({ params }: { params: { locale: string } })
                 </p>
               </div>
               <Link
-                href={`/${locale}/contact`}
+                href={`/${locale}/contact/`}
                 className="inline-flex items-center gap-2 bg-solar-500 hover:bg-solar-400 text-neutral-900 px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-solar-500/30 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap"
               >
                 {t.services.contactButton}

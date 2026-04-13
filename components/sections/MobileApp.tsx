@@ -124,102 +124,18 @@ export default function MobileApp({ locale }: { locale: string }) {
             </div>
           </div>
 
-          {/* Phone Mockup Side */}
+          {/* App screenshot — same asset as mobile-app page */}
           <div className="flex items-center justify-center lg:justify-end">
-            <div className="relative">
-              {/* Glow effect */}
+            <div className="relative w-full max-w-sm mx-auto lg:mx-0">
               <div className="absolute inset-0 bg-solar-500/20 rounded-[3rem] blur-3xl scale-75" aria-hidden="true" />
-              
-              {/* Phone frame */}
-              <div className="relative w-[280px] md:w-[320px]">
-                <div className="relative bg-neutral-900 rounded-[2.5rem] p-3 shadow-2xl border border-neutral-700">
-                  {/* Notch */}
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-6 bg-neutral-900 rounded-b-2xl z-10" />
-                  
-                  {/* Screen */}
-                  <div className="bg-gradient-to-br from-primary-50 to-white rounded-[2rem] overflow-hidden">
-                    {/* Status bar */}
-                    <div className="bg-gradient-to-r from-primary-800 to-primary-700 h-10 flex items-center justify-between px-6 text-white text-xs font-semibold pt-2">
-                      <span>9:41</span>
-                      <div className="flex items-center gap-1">
-                        <div className="flex gap-0.5">
-                          <div className="w-1 h-2 bg-white rounded-sm"></div>
-                          <div className="w-1 h-3 bg-white rounded-sm"></div>
-                          <div className="w-1 h-4 bg-white rounded-sm"></div>
-                          <div className="w-1 h-3 bg-white/50 rounded-sm"></div>
-                        </div>
-                        <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M17 7H7c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 8H7V9h10v6z"/>
-                          <path d="M20 10h2v4h-2z"/>
-                        </svg>
-                      </div>
-                    </div>
-                    
-                    {/* App content mockup */}
-                    <div className="p-4 space-y-4 h-[400px] md:h-[460px]">
-                      {/* Header */}
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <div className="text-lg font-bold text-neutral-900">TAWFIR</div>
-                          <div className="text-xs text-neutral-500">
-                            {locale === 'ar' ? 'مرحباً بك' : 'Bienvenue'}
-                          </div>
-                        </div>
-                        <div className="w-10 h-10 bg-solar-100 rounded-full flex items-center justify-center">
-                          <svg className="w-5 h-5 text-solar-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg>
-                        </div>
-                      </div>
-                      
-                      {/* Calculator card */}
-                      <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-2xl p-4 text-white">
-                        <div className="text-xs opacity-80 mb-1">
-                          {locale === 'ar' ? 'التوفير المقدر' : 'Économies estimées'}
-                        </div>
-                        <div className="text-2xl font-bold mb-2">2,450 MAD<span className="text-sm font-normal opacity-80">/mois</span></div>
-                        <div className="w-full bg-white/20 rounded-full h-2">
-                          <div className="bg-solar-400 h-2 rounded-full w-3/4"></div>
-                        </div>
-                      </div>
-                      
-                      {/* Quick actions */}
-                      <div className="grid grid-cols-2 gap-3">
-                        <div className="bg-white border border-neutral-100 rounded-xl p-3 shadow-sm">
-                          <div className="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center mb-2">
-                            <svg className="w-4 h-4 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                            </svg>
-                          </div>
-                          <div className="text-xs font-semibold text-neutral-900">
-                            {locale === 'ar' ? 'حاسبة' : 'Calculateur'}
-                          </div>
-                        </div>
-                        <div className="bg-white border border-neutral-100 rounded-xl p-3 shadow-sm">
-                          <div className="w-8 h-8 bg-solar-100 rounded-lg flex items-center justify-center mb-2">
-                            <svg className="w-4 h-4 text-solar-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                            </svg>
-                          </div>
-                          <div className="text-xs font-semibold text-neutral-900">
-                            {locale === 'ar' ? 'فنيين' : 'Techniciens'}
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* CTA button */}
-                      <div className="bg-solar-500 rounded-xl py-3 text-center">
-                        <span className="text-sm font-bold text-neutral-900">
-                          {locale === 'ar' ? 'طلب دراسة' : 'Demander un devis'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Home indicator */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-32 h-1 bg-neutral-600 rounded-full" />
-              </div>
+              <Image
+                src="/images/appimage2.jpeg"
+                alt={locale === 'ar' ? 'تطبيق طوفير إنرجي' : 'Application Tawfir Energy'}
+                width={400}
+                height={800}
+                className="relative w-full h-auto rounded-3xl shadow-2xl border-4 border-white/10"
+                priority
+              />
             </div>
           </div>
         </div>
