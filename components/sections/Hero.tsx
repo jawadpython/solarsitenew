@@ -10,7 +10,7 @@ export default function Hero({ locale }: { locale: string }) {
   const stats = [
     { value: '10+', label: locale === 'ar' ? 'سنوات خبرة' : "Années d'expertise" },
     { value: '500+', label: locale === 'ar' ? 'مشروع منجز' : 'Installations réalisées' },
-    { value: '25', label: locale === 'ar' ? 'سنة ضمان' : 'Ans de garantie' },
+    { value: '25', label: locale === 'ar' ? 'سنة ضمان' : 'Années de garantie' },
   ];
 
   return (
@@ -109,10 +109,10 @@ export default function Hero({ locale }: { locale: string }) {
                   </svg>
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
-                  {locale === 'ar' ? 'خبراء الطاقة الشمسية بالمغرب' : 'Expert Solaire au Maroc'}
+                  {locale === 'ar' ? 'خبراء الطاقة الشمسية بالمغرب' : 'Expert solaire au Maroc'}
                 </h3>
                 <p className="text-neutral-300 text-sm">
-                  {locale === 'ar' ? 'دراسة، توريد، تركيب وصيانة' : 'Étude, fourniture, installation & maintenance'}
+                  {locale === 'ar' ? 'دراسة، توريد، تركيب وصيانة' : 'Étude, fourniture, installation et maintenance'}
                 </p>
               </div>
               
@@ -140,7 +140,7 @@ export default function Hero({ locale }: { locale: string }) {
               
               {/* Reassurance text */}
               <p className="text-center text-neutral-400 text-xs mt-4">
-                {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24h • Sans engagement'}
+                {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24\u202fh • Sans engagement'}
               </p>
             </div>
           </div>

@@ -1,36 +1,36 @@
 {
   "nav": {
     "home": "Accueil",
-    "services": "Nos Services",
-    "about": "À Propos",
+    "services": "Nos services",
+    "about": "À propos",
     "mobileApp": "Application",
-    "partners": "Devenir Partenaire",
-    "contact": "Demander un Devis",
-    "getQuote": "Étude Gratuite"
+    "partners": "Devenir partenaire",
+    "contact": "Demander un devis",
+    "getQuote": "Étude gratuite"
   },
   "hero": {
     "badge": "N°1 de l'énergie solaire au Maroc",
-    "headline": "Réduisez jusqu'à 70%\nvotre facture d'électricité",
+    "headline": "Réduisez jusqu'à 70\u202f%\nvotre facture d'électricité",
     "subtext": "TAWFIR ENERGY accompagne les entreprises et particuliers marocains dans leur transition énergétique. Étude personnalisée, installation certifiée, garantie jusqu'à 25 ans.",
     "ctaPrimary": "Demandez votre étude gratuite",
     "ctaSecondary": "Découvrir nos services",
     "trust1": "Garantie jusqu'à 25 ans",
-    "trust2": "Retour sur investissement en 3-5 ans",
+    "trust2": "Retour sur investissement en 5 ans",
     "trust3": "Équipe certifiée au Maroc"
   },
   "whatWeDo": {
     "title": "Une expertise complète à votre service",
     "subtitle": "De l'étude initiale à la maintenance long terme, nous gérons l'intégralité de votre projet solaire avec rigueur et professionnalisme.",
     "feature1": {
-      "title": "Étude & Dimensionnement",
-      "description": "Analyse technique approfondie de vos besoins énergétiques. Nous concevons une solution sur-mesure optimisée pour votre consommation et votre budget."
+      "title": "Étude et dimensionnement",
+      "description": "Analyse technique approfondie de vos besoins énergétiques. Nous concevons une solution sur mesure optimisée pour votre consommation et votre budget."
     },
     "feature2": {
-      "title": "Installation Professionnelle",
-      "description": "Équipe de techniciens certifiés et expérimentés. Matériel de grade professionnel avec traçabilité complète et conformité aux normes marocaines."
+      "title": "Installation professionnelle",
+      "description": "Équipe de techniciens certifiés et expérimentés. Matériel professionnel avec traçabilité complète et conformité aux normes marocaines."
     },
     "feature3": {
-      "title": "Suivi & Maintenance",
+      "title": "Suivi et maintenance",
       "description": "Contrats de maintenance préventive et curative. Monitoring à distance de vos installations pour garantir des performances optimales."
     }
   },
@@ -39,7 +39,7 @@
     "subtitle": "Le Maroc bénéficie d'un ensoleillement exceptionnel. Transformez cette ressource naturelle en économies durables pour votre entreprise ou votre foyer.",
     "benefit1": {
       "title": "Réduction immédiate des coûts",
-      "description": "Économisez jusqu'à 70% sur votre facture d'électricité dès la première année. Amortissement garanti en 3 à 5 ans selon votre profil de consommation."
+      "description": "Économisez jusqu'à 70\u202f% sur votre facture d'électricité dès la première année. Amortissement garanti en 3 à 5 ans selon votre profil de consommation."
     },
     "benefit2": {
       "title": "Protection contre les hausses tarifaires",
@@ -67,7 +67,7 @@
       "description": "Calculez précisément les besoins pour vos systèmes d'irrigation agricole ou d'approvisionnement en eau."
     },
     "feature3": {
-      "title": "Estimation ROI",
+      "title": "Estimation du ROI",
       "description": "Visualisez votre retour sur investissement et vos économies cumulées sur 25 ans."
     },
     "feature4": {
@@ -82,27 +82,45 @@
     "cta2": "Télécharger l'application"
   },
   "services": {
-    "title": "Nos Prestations",
+    "title": "Nos prestations",
     "subtitle": "Une offre complète pour les professionnels et les particuliers exigeants. Chaque projet bénéficie d'un suivi personnalisé de A à Z.",
     "service1": {
-      "title": "Étude Technique & Devis",
+      "title": "Étude technique et devis",
       "description": "Audit énergétique complet de vos locaux. Analyse de votre consommation, dimensionnement optimal et devis détaillé avec ROI projeté. Étude gratuite et sans engagement."
     },
     "service2": {
-      "title": "Fourniture & Installation",
+      "title": "Fourniture et installation",
       "description": "Panneaux, onduleurs et structures de marques premium avec garantie fabricant. Installation par nos équipes certifiées dans le respect des normes en vigueur au Maroc."
     },
     "service3": {
-      "title": "Maintenance & SAV",
+      "title": "Maintenance et SAV",
       "description": "Contrats de maintenance préventive avec interventions planifiées. Service après-vente réactif avec délai d'intervention garanti. Monitoring continu de vos installations."
     },
     "service4": {
-      "title": "Pompage Solaire Agricole",
+      "title": "Pompage solaire agricole",
       "description": "Solutions complètes de pompage solaire pour l'irrigation et l'abreuvement. Dimensionnement adapté à votre débit et profondeur. Idéal pour les exploitations agricoles marocaines."
     },
     "service5": {
-      "title": "Réseau d'Installateurs Agréés",
+      "title": "Réseau d'installateurs agréés",
       "description": "Accédez à notre réseau national de techniciens certifiés. Formation continue et certification qualité. Couverture de tout le territoire marocain."
+    },
+    "overviewStats": {
+      "savings": {
+        "label": "Économies annuelles",
+        "value": "27\u202f000 MAD",
+        "badge": "DH",
+        "hint": "Réduction moyenne sur votre facture"
+      },
+      "production": {
+        "label": "Production",
+        "value": "5,2 kW",
+        "hint": "Capacité d'installation recommandée"
+      },
+      "roi": {
+        "label": "Retour sur investissement",
+        "value": "5 ans",
+        "hint": "Temps estimé pour récupérer l'investissement"
+      }
     },
     "pillarsIntro": {
       "title": "Notre accompagnement en trois temps",
@@ -153,7 +171,7 @@
           },
           {
             "title": "Mise en œuvre et câblage",
-            "body": "Fixations, passage de câbles, mise à la terre et raccordements sont réalisés selon les règles de l'art et la réglementation marocaine en vigueur. Chaque chaine est testée avant raccordement au réseau ou à votre tableau électrique."
+            "body": "Fixations, passage de câbles, mise à la terre et raccordements sont réalisés selon les règles de l'art et la réglementation marocaine en vigueur. Chaque chaîne est testée avant raccordement au réseau ou à votre tableau électrique."
           },
           {
             "title": "Mise en service et réception",
@@ -209,7 +227,7 @@
     "stat1Label": "Années d'expertise",
     "stat2": "500+",
     "stat2Label": "Installations réalisées",
-    "stat3": "98%",
+    "stat3": "98\u202f%",
     "stat3Label": "Clients satisfaits",
     "stat4": "25 ans",
     "stat4Label": "Garantie maximale"
@@ -217,7 +235,7 @@
   "finalCta": {
     "title": "Passez à l'action dès maintenant",
     "description": "Chaque jour sans solaire, c'est de l'argent perdu. Demandez votre étude gratuite et découvrez combien vous pourriez économiser chaque mois.",
-    "cta1": "Demandez votre étude gratuite — Réponse sous 24h",
+    "cta1": "Demandez votre étude gratuite — Réponse sous 24\u202fh",
     "cta2": "Appelez-nous directement"
   },
   "about": {
@@ -229,7 +247,7 @@
     },
     "vision": {
       "title": "Notre vision",
-      "description": "Devenir la référence nationale en matière d'énergie solaire, reconnue pour l'excellence de ses installations, la qualité de son service client et son engagement envers l'innovation. Contribuer activement à l'objectif du Maroc d'atteindre 52% d'énergies renouvelables d'ici 2030."
+      "description": "Devenir la référence nationale en matière d'énergie solaire au Maroc, grâce à l'excellence de nos installations, à la qualité de notre service client et à notre engagement pour l'innovation. Contribuer activement à l'objectif du Maroc d'atteindre 52\u202f% d'énergies renouvelables d'ici 2030."
     },
     "values": {
       "title": "Nos engagements",
@@ -247,7 +265,7 @@
       },
       "value4": {
         "title": "Impact local",
-        "description": "100% de nos équipes sont basées au Maroc. Nous investissons dans la formation et l'emploi local."
+        "description": "100\u202f% de nos équipes sont basées au Maroc. Nous investissons dans la formation et l'emploi local."
       }
     },
     "stats": {
@@ -256,7 +274,7 @@
       "stat1Label": "Années d'activité",
       "stat2": "500+",
       "stat2Label": "Projets livrés",
-      "stat3": "98%",
+      "stat3": "98\u202f%",
       "stat3Label": "Taux de satisfaction",
       "stat4": "25 ans",
       "stat4Label": "Garantie matériel"
@@ -268,7 +286,7 @@
     "form": {
       "name": "Nom complet",
       "namePlaceholder": "Votre nom et prénom",
-      "email": "Adresse email",
+      "email": "Adresse e-mail",
       "emailPlaceholder": "votre@email.com",
       "phone": "Numéro de téléphone",
       "phonePlaceholder": "+212 6XX XXX XXX",
@@ -278,17 +296,19 @@
       "messagePlaceholder": "Parlez-nous de votre projet : type de bâtiment, consommation actuelle, objectifs...",
       "submit": "Envoyer ma demande",
       "submitting": "Envoi en cours...",
-      "success": "Demande envoyée avec succès ! Notre équipe vous recontactera sous 24h.",
+      "success": "Demande envoyée avec succès ! Notre équipe vous répondra sous 24\u202fh.",
       "error": "Une erreur s'est produite. Veuillez réessayer ou nous appeler directement."
     },
     "info": {
       "title": "Informations de contact",
-      "email": "Email",
+      "email": "E-mail",
       "phone": "Téléphone",
       "address": "Zone d'intervention",
       "addressValue": "Tout le Maroc",
       "hours": "Horaires d'ouverture",
-      "hoursValue": "Lun - Sam : 9h00 - 18h00"
+      "hoursValue": "Lun - Sam : 9h00 - 18h00",
+      "founderBadge": "TE",
+      "founderTitle": "Fondateur – TAWFIR ENERGY"
     },
     "cta": {
       "title": "Besoin d'une réponse immédiate ?",
@@ -296,7 +316,7 @@
     }
   },
   "mobileAppPage": {
-    "title": "Application Mobile TAWFIR",
+    "title": "Application mobile TAWFIR",
     "subtitle": "Tous les outils pour planifier et simuler votre projet solaire, directement sur votre smartphone",
     "description": "Calculez votre dimensionnement, estimez vos économies, trouvez un installateur certifié près de chez vous. L'application TAWFIR ENERGY centralise tous les outils dont vous avez besoin pour démarrer votre projet solaire en toute confiance.",
     "features": {
@@ -319,7 +339,7 @@
       },
       "feature5": {
         "title": "Demande de devis express",
-        "description": "Envoyez une demande de devis détaillée en quelques clics. Réponse garantie sous 24h."
+        "description": "Envoyez une demande de devis détaillée en quelques clics. Réponse garantie sous 24\u202fh."
       }
     },
     "download": {
@@ -345,7 +365,7 @@
         "benefit1": "Accès à notre portefeuille de prospects qualifiés",
         "benefit2": "Formation technique et commerciale complète",
         "benefit3": "Tarifs préférentiels sur le matériel premium",
-        "benefit4": "Co-branding et visibilité sur nos supports"
+        "benefit4": "Co-marquage et visibilité sur nos supports"
       },
       "cta": "Devenir partenaire"
     },
@@ -368,14 +388,14 @@
       "typePartner": "Partenaire commercial",
       "typeTechnician": "Technicien installateur",
       "name": "Nom / Raison sociale",
-      "email": "Email professionnel",
+      "email": "E-mail professionnel",
       "phone": "Téléphone",
       "location": "Ville / Région",
       "experience": "Années d'expérience",
       "message": "Présentez votre activité",
       "messagePlaceholder": "Décrivez votre expérience et vos motivations...",
       "submit": "Envoyer ma candidature",
-      "success": "Candidature envoyée ! Notre équipe partenariats vous recontactera sous 48h."
+      "success": "Candidature envoyée ! Notre service Partenariats vous répondra sous 48\u202fh."
     }
   },
   "footer": {

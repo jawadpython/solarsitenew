@@ -187,7 +187,7 @@ export default function ContactForm({ locale, t }: ContactFormProps) {
               
               {/* Reassurance */}
               <p className="text-center text-sm text-neutral-500">
-                {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24h • Sans engagement'}
+                {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24\u202fh • Sans engagement'}
               </p>
             </form>
           </div>
@@ -260,16 +260,15 @@ export default function ContactForm({ locale, t }: ContactFormProps) {
                 </div>
               </div>
             </div>
-            
-            {/* Founder info */}
+
+            {/* Founder (brand — no personal name) */}
             <div className="mt-6 pt-6 border-t border-white/10">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gradient-to-br from-solar-400 to-solar-600 rounded-full flex items-center justify-center text-neutral-900 font-bold text-xl">
-                  AB
+                <div className="w-14 h-14 bg-gradient-to-br from-solar-400 to-solar-600 rounded-full flex items-center justify-center text-neutral-900 font-bold text-lg tracking-tight">
+                  {t.contact.info.founderBadge}
                 </div>
                 <div>
-                  <div className="font-bold">Anas Benzaouij</div>
-                  <div className="text-sm text-primary-200">Founder – TAWFIR ENERGY</div>
+                  <div className="font-bold">{t.contact.info.founderTitle}</div>
                 </div>
               </div>
             </div>

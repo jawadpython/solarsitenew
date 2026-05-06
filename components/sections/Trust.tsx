@@ -101,7 +101,7 @@ export default function Trust({ locale }: { locale: string }) {
               </div>
               <div className="text-sm text-neutral-300">
                 <span className="block font-semibold text-white">{locale === 'ar' ? 'معتمد' : 'Certifié'}</span>
-                {locale === 'ar' ? 'جودة المغرب' : 'Qualité Maroc'}
+                {locale === 'ar' ? 'جودة المغرب' : 'Qualité au Maroc'}
               </div>
             </div>
             
@@ -125,7 +125,7 @@ export default function Trust({ locale }: { locale: string }) {
               </div>
               <div className="text-sm text-neutral-300">
                 <span className="block font-semibold text-white">{locale === 'ar' ? 'سريع' : 'Rapide'}</span>
-                {locale === 'ar' ? 'رد خلال 24 ساعة' : 'Réponse sous 24h'}
+                {locale === 'ar' ? 'رد خلال 24 ساعة' : 'Réponse sous 24\u202fh'}
               </div>
             </div>
           </div>

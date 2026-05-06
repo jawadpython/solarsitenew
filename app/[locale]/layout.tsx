@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Tawfir Energy - Solutions Solaires au Maroc',
+    default: 'Tawfir Energy — Solutions solaires au Maroc',
     template: '%s | Tawfir Energy',
   },
   description: 'Solutions d\'énergie solaire professionnelles au Maroc. Installation solaire, maintenance et consultation pour réduire vos factures d\'électricité.',
@@ -37,20 +37,20 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: 'https://tawfirenergy.com',
     siteName: 'Tawfir Energy',
-    title: 'Tawfir Energy - Solutions Solaires au Maroc',
+    title: 'Tawfir Energy — Solutions solaires au Maroc',
     description: 'Solutions d\'énergie solaire professionnelles au Maroc. Installation solaire, maintenance et consultation.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Tawfir Energy - Solutions Solaires au Maroc',
+        alt: 'Tawfir Energy — Solutions solaires au Maroc',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tawfir Energy - Solutions Solaires au Maroc',
+    title: 'Tawfir Energy — Solutions solaires au Maroc',
     description: 'Solutions d\'énergie solaire professionnelles au Maroc.',
     images: ['/og-image.jpg'],
   },

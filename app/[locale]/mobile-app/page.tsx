@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 
   return {
-    title: locale === 'ar' ? 'التطبيق المحمول' : 'Application Mobile',
+    title: locale === 'ar' ? 'التطبيق المحمول' : 'Application mobile',
     description: locale === 'ar'
       ? 'تطبيق طوفير إنرجي: حاسبة الطاقة الشمسية، حاسبة الضخ، تقدير التوفير، البحث عن الفنيين وطلب عرض السعر.'
       : 'Application Tawfir Energy : calculateur solaire, calculateur de pompage, estimation des économies, recherche de techniciens et demande de devis.',

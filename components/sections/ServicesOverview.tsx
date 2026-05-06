@@ -77,7 +77,7 @@ export default function ServicesOverview({ locale }: { locale: string }) {
               </div>
               <div>
                 <h3 className="text-3xl font-bold mb-2">
-                  {locale === 'ar' ? 'حاسبة الطاقة الشمسية' : 'Calculateur Solaire'}
+                  {locale === 'ar' ? 'حاسبة الطاقة الشمسية' : 'Calculateur solaire'}
                 </h3>
                 <p className="text-white/90 text-lg">
                   {locale === 'ar' 
@@ -102,15 +102,17 @@ export default function ServicesOverview({ locale }: { locale: string }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="result-card">
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 bg-success-500 rounded-[12px] flex items-center justify-center text-white text-xl font-bold">
-                €
+              <div className="w-12 h-12 bg-success-500 rounded-[12px] flex items-center justify-center text-white text-sm font-bold leading-tight px-1">
+                {t.services.overviewStats.savings.badge}
               </div>
-              <div>
-                <div className="text-sm text-neutral-600 font-medium">Économies annuelles</div>
-                <div className="text-3xl font-bold text-success-700">2,500€</div>
+              <div className="min-w-0">
+                <div className="text-sm text-neutral-600 font-medium">{t.services.overviewStats.savings.label}</div>
+                <div className="text-2xl sm:text-3xl font-bold text-success-700 tabular-nums tracking-tight">
+                  {t.services.overviewStats.savings.value}
+                </div>
               </div>
             </div>
-            <p className="text-sm text-neutral-600">Réduction moyenne sur votre facture</p>
+            <p className="text-sm text-neutral-600">{t.services.overviewStats.savings.hint}</p>
           </div>
 
           <div className="result-card">
@@ -118,12 +120,12 @@ export default function ServicesOverview({ locale }: { locale: string }) {
               <div className="w-12 h-12 bg-accent-500 rounded-[12px] flex items-center justify-center text-white text-xl font-bold">
                 ⚡
               </div>
-              <div>
-                <div className="text-sm text-neutral-600 font-medium">Production</div>
-                <div className="text-3xl font-bold text-accent-700">5.2 kW</div>
+              <div className="min-w-0">
+                <div className="text-sm text-neutral-600 font-medium">{t.services.overviewStats.production.label}</div>
+                <div className="text-3xl font-bold text-accent-700 tabular-nums">{t.services.overviewStats.production.value}</div>
               </div>
             </div>
-            <p className="text-sm text-neutral-600">Capacité d&apos;installation recommandée</p>
+            <p className="text-sm text-neutral-600">{t.services.overviewStats.production.hint}</p>
           </div>
 
           <div className="result-card">
@@ -131,12 +133,12 @@ export default function ServicesOverview({ locale }: { locale: string }) {
               <div className="w-12 h-12 bg-primary-500 rounded-[12px] flex items-center justify-center text-white text-xl font-bold">
                 📅
               </div>
-              <div>
-                <div className="text-sm text-neutral-600 font-medium">Retour sur investissement</div>
-                <div className="text-3xl font-bold text-primary-700">7 ans</div>
+              <div className="min-w-0">
+                <div className="text-sm text-neutral-600 font-medium">{t.services.overviewStats.roi.label}</div>
+                <div className="text-3xl font-bold text-primary-700">{t.services.overviewStats.roi.value}</div>
               </div>
             </div>
-            <p className="text-sm text-neutral-600">Temps estimé pour récupérer l&apos;investissement</p>
+            <p className="text-sm text-neutral-600">{t.services.overviewStats.roi.hint}</p>
           </div>
         </div>
         

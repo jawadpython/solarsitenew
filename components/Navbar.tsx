@@ -50,7 +50,7 @@ export default function Navbar({ locale }: { locale: string }) {
                   TAWFIR <span className="text-primary-700">ENERGY</span>
                 </span>
                 <span className="text-[10px] font-medium text-neutral-500 tracking-wider uppercase hidden sm:block">
-                  {locale === 'ar' ? 'الطاقة الشمسية • المغرب' : 'Énergie Solaire • Maroc'}
+                  {locale === 'ar' ? 'الطاقة الشمسية • المغرب' : 'Énergie solaire • Maroc'}
                 </span>
               </div>
             </Link>

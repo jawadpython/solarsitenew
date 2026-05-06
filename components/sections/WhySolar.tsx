@@ -48,7 +48,7 @@ export default function WhySolar({ locale }: { locale: string }) {
         </svg>
       ),
       highlight: '-40%',
-      highlightLabel: locale === 'ar' ? 'انبعاثات CO2' : 'émissions CO2',
+      highlightLabel: locale === 'ar' ? 'انبعاثات CO2' : 'émissions de CO₂',
     },
   ];
   
@@ -82,11 +82,18 @@ export default function WhySolar({ locale }: { locale: string }) {
               className="group bg-white rounded-2xl p-6 lg:p-8 border border-neutral-100 hover:border-solar-200 shadow-soft hover:shadow-medium transition-all duration-300"
             >
               <div className="flex gap-5">
-                {/* Icon and highlight */}
-                <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-gradient-to-br from-solar-50 to-solar-100 rounded-2xl flex flex-col items-center justify-center group-hover:scale-105 transition-transform border border-solar-200">
-                    <span className="text-lg font-bold text-solar-700">{benefit.highlight}</span>
-                    <span className="text-[10px] text-solar-600 font-medium">{benefit.highlightLabel}</span>
+                {/* Stat badge — readable typography, not a cramped square */}
+                <div className="flex-shrink-0 pt-0.5">
+                  <div
+                    className="relative flex w-[6.75rem] sm:w-[7.25rem] flex-col items-center justify-center gap-1.5 rounded-2xl border border-solar-300/50 bg-gradient-to-b from-solar-100 to-solar-50 px-2.5 py-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] transition-transform duration-300 group-hover:scale-[1.02] group-hover:border-solar-400/60 group-hover:shadow-md"
+                    dir={locale === 'ar' ? 'rtl' : 'ltr'}
+                  >
+                    <span className="text-[1.375rem] sm:text-2xl font-black tabular-nums tracking-tight text-solar-900 leading-none">
+                      {benefit.highlight}
+                    </span>
+                    <span className="text-center text-[11px] sm:text-xs font-semibold leading-snug text-solar-800/90">
+                      {benefit.highlightLabel}
+                    </span>
                   </div>
                 </div>
                 

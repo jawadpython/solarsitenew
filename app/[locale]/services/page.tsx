@@ -213,7 +213,7 @@ export default function ServicesPage({ params }: { params: { locale: string } })
                   {t.services.contactCta}
                 </h2>
                 <p className="text-primary-100">
-                  {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24h • Sans engagement'}
+                  {locale === 'ar' ? 'رد خلال 24 ساعة • بدون التزام' : 'Réponse sous 24\u202fh • Sans engagement'}
                 </p>
               </div>
               <Link

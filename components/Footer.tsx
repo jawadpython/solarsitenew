@@ -27,7 +27,7 @@ export default function Footer({ locale }: { locale: string }) {
                     TAWFIR <span className="text-solar-400">ENERGY</span>
                   </h3>
                   <span className="text-xs text-neutral-500 uppercase tracking-wider">
-                    {locale === 'ar' ? 'الطاقة الشمسية' : 'Énergie Solaire'}
+                    {locale === 'ar' ? 'الطاقة الشمسية' : 'Énergie solaire'}
                   </span>
                 </div>
               </div>

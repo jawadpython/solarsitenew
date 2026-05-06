@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 
   return {
-    title: locale === 'ar' ? 'الشركاء والفنيون' : 'Partenaires & Techniciens',
+    title: locale === 'ar' ? 'الشركاء والفنيون' : 'Partenaires et techniciens',
     description: locale === 'ar'
       ? 'انضم إلى شبكة طوفير إنرجي كشريك أو فني. تواصل مع شبكة محترفي الطاقة الشمسية في المغرب.'
       : 'Rejoignez le réseau Tawfir Energy en tant que partenaire ou technicien. Connectez-vous avec notre réseau de professionnels de l\'énergie solaire au Maroc.',
