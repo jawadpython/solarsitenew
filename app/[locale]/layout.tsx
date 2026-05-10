@@ -66,7 +66,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [{ url: '/images/sitesolarfavicon.png', type: 'image/png' }],
+    shortcut: '/images/sitesolarfavicon.png',
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
